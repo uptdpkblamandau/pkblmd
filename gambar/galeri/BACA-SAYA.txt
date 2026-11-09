@@ -1,0 +1,16 @@
+CARA MENAMBAH FOTO GALERI
+Upload foto ke folder di bawah ini (lewat GitHub: Add file > Upload files).
+Website memperbarui galeri sendiri sekitar 2-3 menit setelah upload.
+
+  gambar/galeri/gedung-dan-ruangan/          foto gedung dan ruangan
+  gambar/galeri/alat-uji/                    foto alat uji
+  gambar/galeri/kegiatan/jumat-bersih/       satu folder = satu sub kegiatan
+  gambar/galeri/kegiatan/kalibrasi-2026/
+
+- Nama folder jadi judul. "jumat-bersih" tampil sebagai "Jumat Bersih".
+- Nama file jadi keterangan foto. "ruang-tunggu.jpg" tampil sebagai "Ruang Tunggu".
+  Nama bawaan HP (IMG_1234.jpg) tidak ditampilkan sebagai keterangan.
+- Urutan: awali nama dengan angka, misalnya 01-ruang-tunggu.jpg. Angka depan tidak ditampilkan.
+- Format: JPG atau PNG. Foto HEIC (iPhone) harus diubah ke JPG dulu.
+- Jangan awali nama folder dengan garis bawah (_).
+- Upload maksimal 100 file sekali jalan. Foto otomatis dikecilkan dan data lokasi (GPS) dihapus.

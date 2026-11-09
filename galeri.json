@@ -1,5 +1,58 @@
 {
  "gedung": [],
- "alat": [],
+ "alat": [
+  {
+   "src": "gambar/galeri/alat%20uji/01%20kolong%20Uji.jpg",
+   "cap": "Kolong Uji"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/02%20alat%20Uji%20Emisi.jpg",
+   "cap": "Alat Uji Emisi"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/03%20Alat%20Uji%20CoHc.jpg",
+   "cap": "Alat Uji CoHc"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/04%20Alat%20Uji%20Kincup%20Roda%20Depan.jpg",
+   "cap": "Alat Uji Kincup Roda Depan"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/05%20Alat%20Uji%20Berat%20Kendaraan.jpg",
+   "cap": "Alat Uji Berat Kendaraan"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/06%20Alat%20Uji%20Lampu.jpg",
+   "cap": "Alat Uji Lampu"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/07%20Alat%20Uji%20Rem.jpg",
+   "cap": "Alat Uji Rem"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/08%20Alat%20Uji%20Speedometer.jpg",
+   "cap": "Alat Uji Speedometer"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/09%20Alat%20Uji%20Kebisingan.jpg",
+   "cap": "Alat Uji Kebisingan"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/10%20Alat%20Uji%20Ketebalan%20kaca.jpg",
+   "cap": "Alat Uji Ketebalan Kaca"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/11%20alat%20uji%20kedalaman%20Alur%20ban.jpg",
+   "cap": "Alat Uji Kedalaman Alur Ban"
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/1655006243642.jpg",
+   "cap": ""
+  },
+  {
+   "src": "gambar/galeri/alat%20uji/1655006243652.jpg",
+   "cap": ""
+  }
+ ],
  "kegiatan": []
 }

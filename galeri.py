@@ -56,6 +56,21 @@ def kecilkan(path):
         print('GAGAL:', path, e)
 
 
+def kunci(nama):
+    return re.sub(r'[\s_]+', '-', nama.strip().lower())
+
+
+def cari(nama_folder, *alias):
+    """Cari sub folder di ROOT yang namanya cocok (spasi/huruf besar/garis bawah tidak berpengaruh)."""
+    if not os.path.isdir(ROOT):
+        return os.path.join(ROOT, nama_folder)
+    cocok = {kunci(nama_folder), *[kunci(a) for a in alias]}
+    for n in sorted(os.listdir(ROOT), key=natural):
+        if os.path.isdir(os.path.join(ROOT, n)) and kunci(n) in cocok:
+            return os.path.join(ROOT, n)
+    return os.path.join(ROOT, nama_folder)
+
+
 def foto_di(folder):
     hasil = []
     if not os.path.isdir(folder):
@@ -70,11 +85,11 @@ def foto_di(folder):
 
 
 data = {
-    'gedung': foto_di(os.path.join(ROOT, 'gedung-dan-ruangan')),
-    'alat': foto_di(os.path.join(ROOT, 'alat-uji')),
+    'gedung': foto_di(cari('gedung-dan-ruangan', 'gedung', 'ruangan', 'gedung-ruangan')),
+    'alat': foto_di(cari('alat-uji', 'alat')),
     'kegiatan': [],
 }
-kg = os.path.join(ROOT, 'kegiatan')
+kg = cari('kegiatan')
 if os.path.isdir(kg):
     for n in sorted(os.listdir(kg), key=natural):
         if os.path.isdir(os.path.join(kg, n)):

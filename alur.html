@@ -151,6 +151,23 @@ header.sm .brand{margin-bottom:28px}
 .soon{max-width:560px;margin:0 auto;padding:36px 28px;background:#fff;border:1px solid #DDE5ED;border-radius:20px;box-shadow:0 6px 18px rgba(15,42,67,.10);text-align:center}
 .soon p{margin:0;font-size:17px;line-height:1.7;color:#2F4358}
 .soon .btn{margin-top:22px}
+
+.alur{max-width:1100px;margin:0 auto}
+.alur .fig{display:block;background:#fff;border:1px solid #DDE5ED;border-radius:20px;box-shadow:0 6px 18px rgba(15,42,67,.10);overflow:hidden}
+.alur .fig img{display:block;width:100%;height:auto}
+.alur .zoom{display:flex;justify-content:center;margin:16px 0 0}
+.alur .zoom a{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;background:#0F2A43;color:#fff;font-size:15px;font-weight:700;text-decoration:none}
+.alur .zoom a:hover{background:#17476F}
+.alur h2{margin:36px 0 14px;text-align:center;font-size:15px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:#4A5D72}
+.alur ol{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:12px}
+.alur li{counter-increment:s;position:relative;padding:16px 18px 16px 64px;background:#fff;border:1px solid #DDE5ED;border-radius:16px;font-size:16px;line-height:1.6;color:#14263A}
+.alur li::before{content:counter(s);position:absolute;left:16px;top:14px;width:34px;height:34px;border-radius:50%;background:#F5B800;color:#0F2A43;font-weight:800;display:flex;align-items:center;justify-content:center}
+.alur li b{color:#0F2A43}
+.alur .mn{display:inline-block;margin-left:6px;padding:1px 10px;border-radius:999px;background:#E3EDF7;color:#17476F;font-size:13.5px;font-weight:800;white-space:nowrap}
+.alur .no{color:#B3261E;font-weight:700}
+.alur .ok{color:#1B7F5C;font-weight:700}
+.alur .tot{margin:18px 0 0;padding:16px 18px;text-align:center;background:#0F2A43;border-radius:16px;color:#fff;font-size:17px;font-weight:700}
+.alur .tot span{color:#F5B800}
 </style>
 </head>
 <body>
@@ -159,7 +176,26 @@ header.sm .brand{margin-bottom:28px}
 <div class="brand-text"><div class="l1">UPTD Pengujian Kendaraan Bermotor</div><div class="l2">Dinas Perhubungan Kabupaten Lamandau</div></div>
 <a class="back" href="index.html"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="M11 6l-6 6 6 6"/></svg> Beranda</a></div>
 <h1 class="ptitle">Alur Pengujian</h1></div></header>
-<main class="wrap pmain"><div class="soon"><p>Halaman ini sedang disiapkan. Silakan kembali lagi nanti.</p><a class="btn" href="index.html">Kembali ke Beranda</a></div></main>
+<main class="wrap pmain"><div class="alur">
+<a class="fig" href="gambar/alur-pengujian.jpg" target="_blank" rel="noopener" aria-label="Buka gambar alur pengujian ukuran penuh">
+<img src="gambar/alur-pengujian.jpg" alt="Bagan alur pengujian kendaraan bermotor: pemohon, loket pendaftaran, pemeriksaan berkas administrasi, pemeriksaan teknis di gedung uji, evaluasi dan validasi, pengesahan dan update data hasil uji, penerbitan hasil uji, kendaraan laik jalan. Waktu pelayanan 43 menit." width="2576" height="1932">
+</a>
+<div class="zoom"><a href="gambar/alur-pengujian.jpg" target="_blank" rel="noopener">Buka gambar ukuran penuh</a></div>
+
+<h2>Ringkasan alur</h2>
+<ol>
+<li><b>Pemohon</b> datang ke UPTD.</li>
+<li><b>Loket pendaftaran.</b> Pemohon mendaftar di loket.</li>
+<li><b>Pemeriksaan berkas administrasi.</b><span class="mn">8 menit</span><br><span class="ok">Berkas lengkap:</span> lanjut ke pemeriksaan teknis.<br><span class="no">Berkas tidak lengkap:</span> berkas dikembalikan ke pemohon untuk dilengkapi.</li>
+<li><b>Pemeriksaan teknis di gedung uji.</b><span class="mn">25 menit</span></li>
+<li><b>Evaluasi dan validasi.</b><br><span class="ok">Lulus:</span> lanjut ke pengesahan.<br><span class="no">Tidak lulus:</span> pernyataan tidak lulus uji, kendaraan diperbaiki, lalu pemohon dapat mengajukan kembali.</li>
+<li><b>Pengesahan dan update data hasil uji.</b><span class="mn">10 menit</span></li>
+<li><b>Penerbitan hasil uji.</b></li>
+<li><b>Kendaraan laik jalan.</b></li>
+</ol>
+<p class="tot">Waktu pelayanan uji kendaraan bermotor <span>43 menit</span></p>
+</div>
+</main>
 <footer><div class="wrap"><p class="copy">&copy; UPTD Pengujian Kendaraan Bermotor, Dinas Perhubungan Kabupaten Lamandau</p></div></footer>
 </body>
 </html>
